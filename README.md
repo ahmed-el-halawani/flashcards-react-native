@@ -22,5 +22,7 @@ npm run android
 or
 npm run a
 ```
+project on snack:
 
+https://snack.expo.io/Zxo0WmTag
 
