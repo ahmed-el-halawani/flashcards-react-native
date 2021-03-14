@@ -15,7 +15,7 @@ The project can be run with npm or yarn
 npm start
 ```
 
-or
+to run on android
 
 ```
 npm run android
