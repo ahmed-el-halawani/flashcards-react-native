@@ -22,6 +22,5 @@ npm run android
 or
 npm run a
 ```
-# Notes
-- I didn't test the app on ios cuz i don't have mac
+
 
