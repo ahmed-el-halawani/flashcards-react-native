@@ -15,13 +15,12 @@ The project can be run with npm or yarn
 npm start
 ```
 
-or
+to run on android
 
 ```
 npm run android
 or
 npm run a
 ```
-# Notes
-- I didn't test the app on ios cuz i don't have mac
+
 
