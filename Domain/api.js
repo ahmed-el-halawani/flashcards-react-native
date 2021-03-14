@@ -9,17 +9,15 @@ const createDeck = (oldDecks, title) => {
     },
   });
 };
-
 export async function getDeck(id) {
-  return getAllDecks()[id];
+  return getAllDecks()[id] == null ? {} : getAllDecks()[id];
 }
 
 export async function getAllDecks() {
   return AsyncStorage.getItem("Decks").then((Decks) => {
-    return JSON.parse(Decks);
+    return JSON.parse(Decks) ?? {};
   });
 }
-
 export async function addDeck(title) {
   return getAllDecks().then((oldDecks) => {
     if (title != "") {
